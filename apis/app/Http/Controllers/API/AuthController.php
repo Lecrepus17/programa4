@@ -78,4 +78,10 @@ class AuthController extends Controller
             ]
         ]);
     }
+    public function teste()
+    {
+        return response()->json([
+            'message' => 'Test is OK'
+        ]);
+    }
 }
