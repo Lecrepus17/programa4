@@ -1,0 +1,22 @@
+1 - Criação de uma aplicação que possa rodar no celular (Aplicativo) - Bloco de notas (plus)
+2 - Uso de python
+3 - Uso de Kivy
+4 - 
+5 - 
+
+
+Além das já citadas Kotlin e Swift, há algumas outras já mais comuns à maioria dos programadores, como:
+
+Objective
+-C;
+Java;
+C;
+C++
+Python;
+C #.
+
+https://www.locaweb.com.br/blog/temas/codigo-aberto/desenvolvimento-hibrido/
+
+https://www.devmedia.com.br/curso/curso-android/2228
+
+https://developer.android.com/?hl=pt-br
