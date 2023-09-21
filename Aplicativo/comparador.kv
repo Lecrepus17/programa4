@@ -1,0 +1,54 @@
+<Comp>:
+    orientation: 'vertical'
+    padding: 20
+    Label:
+        text: 'insira o preço e peso em gramas'
+        fot_size: 20
+        text_size: self.size
+    BoxLayout:
+        Label:
+            text: 'produto1'
+        Label:
+            text: 'Kg ou L'
+    BoxLayout:
+        spacing: 10
+        TextInput:
+            id: pr1
+            multiline: False
+            input_filter: 'float'
+        TextInput:
+            id: ps1
+            multiline: False
+            input_filter: 'float'
+        Label:
+            id: p1
+            fot_size: 20
+    BoxLayout:
+        Label:
+            text: 'produto1'
+        Label:
+            text: 'Kg ou L'
+    BoxLayout:
+        spacing: 10
+        TextInput:
+            id: pr2
+            multiline: False
+            input_filter: 'float'
+        TextInput:
+            id: ps2
+            multiline: False
+            input_filter: 'float'
+        Label:
+            id: p2
+            fot_size: 20
+    BoxLayout:
+        spacing: 10
+        Label:
+            text: 'Diferença:'
+            font_size: 20
+        Label:
+            id: dif
+            font_size: 20
+    Button:
+        text: 'COMPARAR'
+        on_release: root.calc()
